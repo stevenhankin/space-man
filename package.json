@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "space-man.spaceUsage",
-        "title": "Spaceman: Show Space Usage"
+        "title": "Space Man: Show Space Usage"
       }
     ]
   },
@@ -43,7 +43,7 @@
     "vscode-test": "^1.5.0"
   },
   "dependencies": {
-    "dir-roll-up": "^1.0.0",
+    "dir-roll-up": "^1.7.0",
     "directory-tree": "^2.2.7"
   }
 }

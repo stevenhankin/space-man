@@ -6,6 +6,7 @@
     "lib": ["es5", "es6", "dom", "dom.iterable"],
     "sourceMap": true,
     "rootDir": "src",
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
     "strict": true /* enable all strict type-checking options */
     /* Additional Checks */
     // "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
