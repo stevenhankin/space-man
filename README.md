@@ -9,6 +9,8 @@ Gives a tree view of the file storage usage for your project, rolled up (a bit l
 - Total files and space usage at top-level
 - Expandable directory structure to view usage below
 
+![Usage](https://raw.githubusercontent.com/stevenhankin/space-man/main/images/space-man-movie.gif)
+
 ---
 
 ## Requirements
