@@ -9,7 +9,10 @@ Gives a tree view of the file storage usage for your project, rolled up (a bit l
 - Total files and space usage at top-level
 - Expandable directory structure to view usage below
 
-![Usage](https://media.giphy.com/media/SfSrjY9AbSaVOkOCEA/giphy.gif)
+<p align="center">
+    </br>
+    <img src="https://media.giphy.com/media/SfSrjY9AbSaVOkOCEA/giphy.gif" align="center" width="90%"/>
+</p>
 
 ---
 
