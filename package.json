@@ -15,6 +15,13 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "directory",
+    "size",
+    "du",
+    "vscode",
+    "extension"
+  ],
   "activationEvents": [
     "onView:spaceMan"
   ],
