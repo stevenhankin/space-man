@@ -10,16 +10,18 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:space-man.spaceUsage"
+    "onView:spaceMan"
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "space-man.spaceUsage",
-        "title": "Space Man: Show Space Usage"
-      }
-    ]
+    "views": {
+      "explorer": [
+        {
+          "id": "spaceMan",
+          "name": "Space Man"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
