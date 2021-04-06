@@ -1,8 +1,8 @@
 {
   "name": "space-man",
-  "displayName": "Space Man",
-  "description": "Disk space analyzer",
-  "version": "1.1.0",
+  "displayName": "Spaceman",
+  "description": "Disk space analyzer - Where's the space, man?",
+  "version": "1.1.1",
   "publisher": "SteveHankin",
   "engines": {
     "vscode": "^1.54.0"
