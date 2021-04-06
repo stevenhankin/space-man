@@ -19,8 +19,6 @@ export class TreeItemDirNode extends vscode.TreeItem {
    */
   setDirNode(dirNode: dirRollUp.DirNode, fileCount: number) {
     this.id = dirNode.id;
-    // this.tooltip = `${this.label}-${this.dirNode.rollupSize}`;
-
     this.dirNode = dirNode;
   }
 

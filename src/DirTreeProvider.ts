@@ -107,13 +107,16 @@ export class DirTreeProvider
       /**
        * Update the tree view periodically
        */
-      setInterval(() => {
+      const viewInterval = setInterval(() => {
         this.rootNode?.setDirNode(this.rootNode.dirNode, this.fileCount);
         this._onDidChangeTreeData.fire();
         console.log(this.idToDirMap.size, this.fileCount);
       }, 1000);
 
-      const interval1 = setInterval(async () => {
+      /**
+       * Obtain stream of directory stats
+       */
+      const dirNodeInterval = setInterval(async () => {
         const dirNodeSeq = await generator.next();
         const dirNode = dirNodeSeq.value;
 
@@ -141,7 +144,8 @@ export class DirTreeProvider
 
         // Stop processing when last item iterated
         if (dirNodeSeq.done) {
-          clearInterval(interval1);
+          clearInterval(dirNodeInterval);
+          clearInterval(viewInterval);
           const endTime = new Date().getTime();
           this.status = "complete";
           vscode.window.showInformationMessage(

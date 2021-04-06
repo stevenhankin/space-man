@@ -1,8 +1,8 @@
 {
   "name": "space-man",
   "displayName": "Space Man",
-  "description": "Tree map of your project's space usage",
-  "version": "1.0.0",
+  "description": "Disk space analyzer",
+  "version": "1.1.0",
   "publisher": "SteveHankin",
   "engines": {
     "vscode": "^1.54.0"
@@ -58,7 +58,6 @@
     "vscode-test": "^1.5.0"
   },
   "dependencies": {
-    "dir-roll-up": "^1.7.0",
-    "directory-tree": "^2.2.7"
+    "dir-roll-up": "^1.7.0"
   }
 }
