@@ -1,4 +1,4 @@
-# SpaceMan
+# SpaceMan <img src="images/astronaut.png" width="24" style="margin-left: 8px">
 
 Gives a tree view of the file storage usage for your project, rolled up (a bit like unix "du")
 
